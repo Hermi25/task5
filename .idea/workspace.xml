@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="627e4e3c-9921-4659-b00b-f9501ef8337f" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/NotePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/NotePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SeleniumHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SeleniumHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/NoteSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/NoteSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/src/test/resources/login_note_logout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/src/test/resources/login_note_logout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/src/test/resources/verify_note.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/src/test/resources/verify_note.feature" afterDir="false" />
     </list>
-    <list id="e17340cd-9b55-47b6-be2f-b250e7829ee4" name="Changes by adam" comment="" />
+    <list id="b0b5223d-332b-4777-a3f9-98cd02afc6f8" name="Changes by adam" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SeleniumHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SeleniumHelper.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +35,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/pages/SeleniumHelper.java">
+      <ranges>
+        <range start1="10" end1="10" start2="10" end2="12" changelist="b0b5223d-332b-4777-a3f9-98cd02afc6f8" />
+        <range start1="24" end1="25" start2="26" end2="27" changelist="627e4e3c-9921-4659-b00b-f9501ef8337f" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,7 +74,7 @@
       <recent name="C:\Users\jlibera\IdeaProjects\task5\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: unsuccessful_login">
+  <component name="RunManager" selected="Cucumber Java.Scenario: User writes a note and logs out (1)">
     <configuration name="Feature: login_note_logout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/src/test/resources/login_note_logout.feature" />
@@ -66,25 +83,6 @@
       <module name="task5" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: login_note_logout" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: successful_login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/src/test/resources/successful_login.feature" />
-      <option name="GLUE" value="stepdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="task5" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: successful_login" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -135,6 +133,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: User writes a note and logs out (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/src/test/resources/login_note_logout.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="task5" />
+      <option name="NAME_FILTER" value="^User writes a note and logs out$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User writes a note and logs out$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User writes a note and logs out" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: User writes a note and logs out" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/src/test/resources/login_note_logout.feature" />
@@ -157,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: login_note_logout" />
+        <item itemvalue="Cucumber Java.Scenario: User writes a note and logs out (1)" />
         <item itemvalue="Cucumber Java.Feature: unsuccessful_login" />
         <item itemvalue="Cucumber Java.Scenario: User provides incorrect credentials" />
-        <item itemvalue="Cucumber Java.Feature: login_note_logout" />
         <item itemvalue="Cucumber Java.Scenario: User writes a note and logs out" />
-        <item itemvalue="Cucumber Java.Feature: successful_login" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +213,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690123403670</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test">
+      <created>1690123495460</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690123495460</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test">
+      <created>1690123628418</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690123628418</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

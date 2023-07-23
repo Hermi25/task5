@@ -4,7 +4,8 @@ Feature:Login, write a note, and logout
     Given User is on the login page
     And User enters valid email and password
     When User clicks login button
-    Then User should be logged in successfully
+    Then Note page is visible
     When User writes a new note
-    And User logs out
+    Then Added note is Visible
+    When User logs out
     Then User should be logged out successfully

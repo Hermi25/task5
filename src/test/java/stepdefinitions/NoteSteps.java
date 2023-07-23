@@ -1,23 +1,41 @@
 package stepdefinitions;
 
-import io.cucumber.java.en.And;
+
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
+import pages.NotePage;
 
 public class NoteSteps {
 
-    @And("User writes a new note")
-    public void writeNote() {
+    private NotePage notePage = new NotePage();
 
-        // Code to write a new note
+    private static final String NOTE_CONTENT = "This is a new note content";
+
+    @Then("Note page is visible")
+    public void visible() {
+        boolean notePageVisible = notePage.isVisible();
+        Assert.assertTrue(notePageVisible);
     }
 
-    @And("User opens the created note")
+    @When("User writes a new note")
+    public void writeNote() {
+        notePage.writeNote(NOTE_CONTENT);
+    }
+
+    @Then("Added note is Visible")
+    public void noteVisible() {
+        boolean noteVisible = notePage.isNoteVisible(NOTE_CONTENT);
+        Assert.assertTrue(noteVisible);
+    }
+
+    @When("User opens the created note")
     public void openNote() {
-        // Code to open the created note
+        notePage.clickNote();
     }
 
     @When("User logs out")
     public void logout() {
-        // Code to perform logout
+        notePage.clickLogoutButton();
     }
 }

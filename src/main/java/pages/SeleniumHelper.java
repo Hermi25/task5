@@ -22,7 +22,7 @@ public class SeleniumHelper {
     public static void waitForElement(WebDriver driver, WebElement webElement)
     {
         var wait = new FluentWait(driver)
-                .withTimeout(Duration.ofSeconds(5))
+                .withTimeout(Duration.ofSeconds(15))
                 .pollingEvery(Duration.ofSeconds(1))
                 .ignoring(Exception.class);
         wait.until((msg) -> webElement.isDisplayed());
