@@ -9,6 +9,8 @@ import java.time.Duration;
 
 public class SeleniumHelper {
 
+    public static WebDriver driver = createWebDriver();
+
     public static WebDriver createWebDriver() {
         String webdriver = System.getProperty("browser", "chrome");
         switch (webdriver) {
