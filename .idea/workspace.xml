@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="627e4e3c-9921-4659-b00b-f9501ef8337f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/NotePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/NoteSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/src/test/resources/login_note_logout.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/src/test/resources/successful_login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/src/test/resources/unsuccessful_login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/src/test/resources/verify_note.feature" afterDir="false" />
+    <list default="true" id="627e4e3c-9921-4659-b00b-f9501ef8337f" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java" afterDir="false" />
     </list>
     <list id="e17340cd-9b55-47b6-be2f-b250e7829ee4" name="Changes by adam" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -188,6 +174,28 @@
       <option name="presentableId" value="Default" />
       <updated>1690055260471</updated>
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1690123261782</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690123261782</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1690123278847</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690123278847</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test">
+      <created>1690123403670</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690123403670</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,5 +208,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
