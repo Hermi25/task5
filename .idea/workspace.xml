@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="627e4e3c-9921-4659-b00b-f9501ef8337f" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/NotePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/NotePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SeleniumHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SeleniumHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/NoteSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/NoteSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/src/test/resources/login_note_logout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/src/test/resources/login_note_logout.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/src/test/resources/verify_note.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/src/test/resources/verify_note.feature" afterDir="false" />
-    </list>
-    <list id="b0b5223d-332b-4777-a3f9-98cd02afc6f8" name="Changes by adam" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SeleniumHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SeleniumHelper.java" afterDir="false" />
-    </list>
+    <list default="true" id="627e4e3c-9921-4659-b00b-f9501ef8337f" name="Changes" comment="Task 5 - last test still fails" />
+    <list id="b0b5223d-332b-4777-a3f9-98cd02afc6f8" name="Changes by adam" comment="helper" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,14 +25,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/pages/SeleniumHelper.java">
-      <ranges>
-        <range start1="10" end1="10" start2="10" end2="12" changelist="b0b5223d-332b-4777-a3f9-98cd02afc6f8" />
-        <range start1="24" end1="25" start2="26" end2="27" changelist="627e4e3c-9921-4659-b00b-f9501ef8337f" />
-      </ranges>
-    </file>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -60,6 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TODO_SCOPE": "All Places",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -227,7 +209,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690123628418</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Task 5 - last test still fails">
+      <created>1690146718930</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690146718930</updated>
+    </task>
+    <task id="LOCAL-00007" summary="helper">
+      <created>1690146753835</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690146753835</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,6 +239,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Task 5 - last test still fails" />
+    <MESSAGE value="helper" />
+    <option name="LAST_COMMIT_MESSAGE" value="helper" />
   </component>
 </project>
